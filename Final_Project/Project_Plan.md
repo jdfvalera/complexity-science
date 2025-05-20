@@ -21,9 +21,9 @@ BDSM (bondage, discipline, dominance, submission, sadism, masochism) interaction
    - **Activity Intensity**: A scalar (0–1) representing the intensity of the scene (e.g., low for negotiation, high for intense role-play).
    - **Feedback Loops**: Agents adjust behaviors based on partner responses (e.g., increasing trust if boundaries are respected).
 3. **Rules**:
-   - Agents negotiate consent before a scene, comparing consent thresholds.
+   - Agents negotiate consent before a scene, compare consent thresholds.
    - During the scene, agents perform actions (e.g., issue commands, comply, or signal discomfort) based on role preferences and trust levels.
-   - Miscommunication (based on communication skill) can reduce trust or trigger safewords.
+   - Miscommunication (based on communication skill) can reduc t or trigger safewords.
    - Agents adapt roles (e.g., a switch shifts from dominant to submissive) based on adaptability and scene dynamics.
    - Emergent outcomes: Successful scenes (high trust, mutual satisfaction), negotiation breakdowns (safeword triggered), or role fluidity (dynamic role-switching).
 
@@ -54,8 +54,6 @@ BDSM (bondage, discipline, dominance, submission, sadism, masochism) interaction
 #### Implementation Steps
 1. **Choose a Platform**:
    - **NetLogo**: Beginner-friendly for ABM, with built-in visualization.
-   - **Python (Mesa)**: Flexible for custom rules and data analysis.
-   - **Unity**: If you want to incorporate physics-based interactions (e.g., inspired by BDSM Oasis, but abstracted to focus on roles, not explicit content).[](https://www.mobygames.com/game/236741/bdsm-oasis-interactive-physics-simulation/)
 2. **Define Agent Attributes**: Code agents with the attributes listed above (e.g., role preference, trust level).
 3. **Set Rules**: Implement negotiation, action, and feedback rules as functions. Use probability distributions for miscommunication or role-switching.
 4. **Run Simulations**: Vary parameters (e.g., communication skill, adaptability) to observe different outcomes.
