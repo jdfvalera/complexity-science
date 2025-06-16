@@ -4,15 +4,10 @@ from mesa.discrete_space import CellAgent
 class Practitioner(CellAgent):
 
     def __init__(self, model, learning_rate, skill_decay, rep_delta, bias_rate):
-        """Create a new agent.
-
-        Args:
-            model (Model): The model instance that contains the agent
-        """
+        """Create a new agent."""
         super().__init__(model)
-        self.top_skill = 1.0  # Initialize with small random skill
-        self.bottom_skill = 1.0 # Initialize with small random skill
-        # self.role_bias = self.random.uniform(0, 1)
+        self.top_skill = 1.0  
+        self.bottom_skill = 1.0
         self.role_bias = 0.5
         self.reputation = 1.0
         self.role_in_scene = None
