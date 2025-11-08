@@ -5,4 +5,4 @@ This repo is for my elective course, Complexity Science, at the Asian Institute 
 This includes:
 - Weekly Reflections
 - Exercise Notebooks
-- Final Project (soon!)
+- Final Project
