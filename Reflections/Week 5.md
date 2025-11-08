@@ -12,8 +12,9 @@ One of the big ideas this week was how percolation models can show when a system
 
 The part that clicked for me was seeing that “snap” moment when the system crosses the threshold. One second everything looks random and scattered, and the next, a giant cluster forms and spans the whole grid. The visuals made it so clear. It made me think about how fragile or robust systems are in real life—like how fast something can go from stable to chaotic with just a small nudge.
 
-
 ## Other Thoughts
 
 
+
 ## Conclusion
+This week made percolation way more memorable (and not just because of coffee). It really showed how small changes can have huge impacts in complex systems.
